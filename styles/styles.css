@@ -493,7 +493,7 @@ section {
 .blogs .blog:hover img {
   filter: grayscale(0);
   transform: scale(1.1);
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
 }
 .blogs .blog img {
   width: 100%;
@@ -618,7 +618,7 @@ section {
   justify-content: flex-start;
 }
 
-/*Independed components*/
+/*Independent components*/
 .btn-con {
   display: flex;
   align-self: flex-start;
@@ -711,7 +711,7 @@ section {
   }
   .right-header {
     grid-row: 1;
-    padding-right: 0rem !important;
+    padding-right: 0 !important;
     width: 90%;
     margin: 0 auto;
   }
@@ -877,7 +877,7 @@ section {
     padding: 7rem 6rem;
   }
   .about-container .left-about {
-    padding-right: 0rem;
+    padding-right: 0;
   }
   .header-content {
     grid-template-columns: repeat(1, 1fr);
@@ -892,7 +892,7 @@ section {
   }
   .right-header {
     grid-row: 1;
-    padding-right: 0rem !important;
+    padding-right: 0 !important;
     width: 90%;
     margin: 0 auto;
   }
