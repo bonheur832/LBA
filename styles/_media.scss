@@ -279,3 +279,9 @@
         }
     }
 }
+
+@media screen and (max-width: 900px) {
+    .featured-project {
+        grid-template-columns: 1fr;
+    }
+}

@@ -669,3 +669,58 @@ section {
 }
 
 @import './media';
+
+/* ===========================
+   DATA SCIENTIST ELITE UPGRADE
+=========================== */
+
+.title {
+    margin-bottom: 0.7rem;
+    font-weight: 600;
+}
+
+.impact-highlights {
+    margin-top: 1rem;
+
+    span {
+        display: inline-block;
+        background: rgba(255,255,255,0.08);
+        padding: .35rem .8rem;
+        border-radius: 20px;
+        margin: .25rem;
+        font-size: .75rem;
+    }
+}
+
+.social-proof {
+    margin-top: 1rem;
+    opacity: .75;
+    font-size: .9rem;
+}
+
+.project-metrics {
+    margin: .7rem 0;
+
+    .metric {
+        display: inline-block;
+        background: rgba(255,255,255,0.08);
+        padding: .3rem .7rem;
+        margin: .2rem;
+        border-radius: 20px;
+        font-size: .72rem;
+    }
+}
+
+/* Featured project layout */
+.featured-project {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.featured-project .hover-items {
+    position: relative !important;
+    transform: none !important;
+    opacity: 1 !important;
+}
