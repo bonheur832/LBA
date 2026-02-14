@@ -724,3 +724,67 @@ section {
     transform: none !important;
     opacity: 1 !important;
 }
+//
+
+/* =========================
+   CONTACT SPACING UPGRADE
+========================= */
+
+.contact {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.left-contact {
+    margin-top: 2rem;
+
+    h4 {
+        margin-bottom: 1.2rem;
+        font-size: 1.4rem;
+    }
+
+    p {
+        line-height: 1.8;
+        margin-bottom: 2rem;
+        max-width: 650px;
+    }
+}
+
+.contact-info {
+    margin-top: 2.5rem;
+
+    .contact-item {
+        padding: 1.2rem 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+
+        .icon {
+            gap: 0.8rem;
+
+            span {
+                letter-spacing: 0.5px;
+            }
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.contact-icons {
+    margin-top: 2.5rem;
+
+    .contact-icon {
+        display: flex;
+        gap: 1.5rem;
+
+        a {
+            font-size: 1.4rem;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            transform: translateY(-3px);
+        }
+    }
+}
